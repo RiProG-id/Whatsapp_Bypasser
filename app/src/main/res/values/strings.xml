@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WhatsApp Bypasser</string>
+    <string name="xposed_description">Bypass unofficial WhatsApp issues for WhatsApp and WhatsApp Business</string>
+    <string-array name="scope">
+        <item>com.whatsapp</item>
+        <item>com.whatsapp.w4b</item>
+    </string-array>
+</resources>

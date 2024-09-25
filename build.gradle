@@ -1,0 +1,12 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://api.xposed.info' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.1'
+        classpath "de.robv.android.xposed:api:82"
+        classpath 'org.bouncycastle:bcpkix-jdk18on:1.77'
+    }
+}
